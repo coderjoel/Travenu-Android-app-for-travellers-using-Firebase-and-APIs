@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_trip"
+            android:icon="@drawable/ic_flight"
+            android:title="New Trip" />
+        <!--<item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_people"
+            android:title="Friends" />-->
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@drawable/ic_upload"
+            android:title="Upload" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_place"
+            android:title="Maps" />
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/ic_weather"
+            android:title="Weather" />
+        <item
+            android:id="@+id/nav_currency"
+            android:icon="@drawable/ic_currency"
+            android:title="Currency Converter" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_aboutus"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

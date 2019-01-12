@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.programunlocked.travenu.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/background_gradient" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="120dp"
+        android:id="@+id/layoutInput"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rec_gradientone"
+        android:padding="20dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:backgroundTint="#0088cc"
+            android:textCursorDrawable="@null"
+            android:drawableRight="@drawable/ic_person"
+            android:hint="Email"
+            android:id="@+id/signinemail"
+            android:textColorLink="@color/colorPrimary" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:text="Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:id="@+id/signinpassword"
+            android:drawableRight="@drawable/ic_lock_black_24dp"
+            android:hint="********"
+            android:textCursorDrawable="@null"
+            android:inputType="textPassword"
+            android:backgroundTint="#0088cc"
+            android:textColorLink="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rec_gradient"
+            android:text="Sign In"
+            android:onClick="userLogin"
+            android:textAllCaps="false"
+            android:textColor="#FFF" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Don't have an account?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textStyle="bold"
+                android:id="@+id/textViewSignUp"
+                android:onClick="sign_upone"
+                android:layout_weight="0.5"
+                android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:onClick="reset"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="0.5"
+            android:gravity="center"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/imageVIew"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"
+
+        android:padding="5dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp" />
+
+</RelativeLayout>
+

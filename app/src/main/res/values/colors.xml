@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0073ac</color>
+    <color name="colorPrimaryDark">#2196f3</color>
+    <color name="colorAccent">#2196f3</color>
+    <color name="windowActionBar">#0069c0</color>
+
+    <!-- Screens background color-->
+    <color name="bg_slider_screen1">#0088cc</color>
+    <color name="bg_slider_screen2">#80ace5</color>
+    <color name="bg_slider_screen3">#a09ddd</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#ffffff</color>
+    <color name="dot_inactive_screen2">#ffffff</color>
+    <color name="dot_inactive_screen3">#ffffff</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#234bcd</color>
+    <color name="dot_active_screen2">#408ee8</color>
+    <color name="dot_active_screen3">#5d41c1</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+    </array>
+
+
+    <color name="colorBackground">@android:color/transparent</color>
+    <color name="colorTintedBackground">#cdcdcd</color>
+
+    <color name="darkTheme_colorPrimary">#2196F3</color>
+    <color name="darkTheme_colorPrimaryDark">#1E88E5</color>
+    <color name="darkTheme_colorAccent">#2196F3</color>
+    <color name="darkTheme_colorBackground">#303030</color>
+    <color name="darkTheme_colorTintedBackground">#424242</color>
+
+    <color name="blackTheme_colorPrimary">#2196F3</color>
+    <color name="blackTheme_colorPrimaryDark">#1E88E5</color>
+    <color name="blackTheme_colorAccent">#2196F3</color>
+    <color name="blackTheme_colorBackground">#000000</color>
+    <color name="blackTheme_colorTintedBackground">#303030</color>
+
+    <color name="classic_colorPrimary">#607d8b</color>
+    <color name="classic_colorPrimaryDark">#455a64</color>
+    <color name="classic_colorAccent">#455a64</color>
+    <color name="classic_colorBackground">@android:color/transparent</color>
+    <color name="classic_colorTintedBackground">#cdcdcd</color>
+
+    <color name="classic_darkTheme_colorPrimary">#37474f</color>
+    <color name="classic_darkTheme_colorPrimaryDark">#263238</color>
+    <color name="classic_darkTheme_colorAccent">#90a4ae</color>
+    <color name="classic_darkTheme_colorBackground">#303030</color>
+    <color name="classic_darkTheme_colorTintedBackground">#263238</color>
+
+    <color name="classic_blackTheme_colorPrimary">#37474f</color>
+    <color name="classic_blackTheme_colorPrimaryDark">#263238</color>
+    <color name="classic_blackTheme_colorAccent">#90a4ae</color>
+    <color name="classic_blackTheme_colorBackground">#000000</color>
+    <color name="classic_blackTheme_colorTintedBackground">#303030</color>
+
+    <color name="splashBackground">#607d8b</color>
+
+    <color name="text_light">#ffffff</color>
+    <color name="text_dark">#000000</color>
+    <color name="tab_indicator">#ffffff</color>
+
+    <item name="grey" type="color">#7c787b</item>
+    <item name="light_grey" type="color">#a6a1a5</item>
+    <item name="dark_grey" type="color">#3d393b</item>
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="light_blue" type="color">#0099cc</item>
+    <color name="red">#D73A31</color>
+    <color name="peach">#FA898A</color>
+    <color name="blue">#2A93D5</color>
+
+</resources>

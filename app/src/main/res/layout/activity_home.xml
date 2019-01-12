@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.programunlocked.travenu.HomeActivity">
+
+    <com.tomer.fadingtextview.FadingTextView
+        android:id="@+id/fadingTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="55dp"
+        app:texts="@array/examples"
+        app:timeout="2000" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="180dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/giphy" />
+
+    <LinearLayout
+        android:id="@+id/layoutInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+
+        android:background="@drawable/background_white"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignBottom="@+id/gif"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.shobhitpuri.custombuttons.GoogleSignInButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Sign In with Google"
+            android:id="@+id/googlesignin"
+            app:isDarkTheme="false" />
+
+        <Button
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/rec_gradient"
+            android:text="Sign in"
+            android:onClick="sign_in"
+            android:textColor="#FFF"
+            android:textSize="13sp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Don't have an account?" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:text="Sign Up"
+            android:textColor="@color/colorPrimary"
+            android:onClick="sign_up"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

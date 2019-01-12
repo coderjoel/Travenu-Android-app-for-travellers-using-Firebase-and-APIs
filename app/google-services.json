@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "36634158935",
+    "firebase_url": "https://travenu-bb9ec.firebaseio.com",
+    "project_id": "travenu-bb9ec",
+    "storage_bucket": "travenu-bb9ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36634158935:android:7f958f09f28d6759",
+        "android_client_info": {
+          "package_name": "com.programunlocked.travenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36634158935-qqti3mr0lf8d33ug9dpnlnde3j2rihm5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.programunlocked.travenu",
+            "certificate_hash": "9134d1636c4fa0d31a09d40121cb64d1f061d925"
+          }
+        },
+        {
+          "client_id": "36634158935-un0qal5d78e99uga3qhn7h0lih77lq58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAUBS7dnAf51uxdmIernsCVbwNdnusKWw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36634158935-un0qal5d78e99uga3qhn7h0lih77lq58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
